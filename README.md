@@ -1,4 +1,3 @@
-
 getgenv().config = {
     ["Team"] = "Pirates",
     ["Use Race"] = {
@@ -19,7 +18,7 @@ getgenv().config = {
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 1.5,
                 },
                 [ "X"] = {
                     ["Enable"] = true,
@@ -34,7 +33,7 @@ getgenv().config = {
         },
         ["Blox Fruit"] = {
             ["Enable"] = false,
-            ["Delay"] = 3,
+            ["Delay"] = 2,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
@@ -42,10 +41,10 @@ getgenv().config = {
                 },
                 ["X"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 0,
+                    ["HoldTime"] = 2,
                 },
                 ["C"] = {
-                    ["Enable"] = true,
+                    ["Enable"] = false,
                     ["HoldTime"] = 0,
                 },
                 ["V"] = {
@@ -60,7 +59,7 @@ getgenv().config = {
         },
         ["Gun"] = {
             ["Enable"] = true,
-            ["Delay"] = 1,
+            ["Delay"] = 3,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
@@ -74,11 +73,11 @@ getgenv().config = {
         },
         ["Sword"] = {
             ["Enable"] = true,
-            ["Delay"] = 2,
+            ["Delay"] = 4,
             ["Skills"] = {
                 ["Z"] = {
                     ["Enable"] = true,
-                    ["HoldTime"] = 1,
+                    ["HoldTime"] = 2,
                 },
                 ["X"] = {
                     ["Enable"] = true,
@@ -91,7 +90,7 @@ getgenv().config = {
         ["Link Webhook"] = "",
         ["Toggle Webhook"] = true
     },
-    ["ChatSpam"] = {truongdz vc },
+    ["ChatSpam"] = {"truong dz ", "No Skill? "},
     ["MinBountyHunt"] = 0,
     ["MaxBountyHunt"] = 30000000,
     ["SafeHealth"] = 4000
